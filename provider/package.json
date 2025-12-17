@@ -1,0 +1,23 @@
+{
+    "name": "sample-provider",
+    "version": "1.0.0",
+    "description": "Sample provider service for Pact contract testing",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "verify": "node tests/pactVerification.js"
+    },
+    "keywords": [
+        "pact",
+        "provider",
+        "contract-testing"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.21.1"
+    },
+    "devDependencies": {
+        "@pact-foundation/pact": "^12.5.2"
+    }
+}

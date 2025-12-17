@@ -1,0 +1,25 @@
+{
+    "name": "sample-consumer-a",
+    "version": "1.0.0",
+    "description": "Sample consumer A project for Pact contract testing",
+    "main": "src/client.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint ."
+    },
+    "keywords": [
+        "pact",
+        "consumer",
+        "contract-testing"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.7.3"
+    },
+    "devDependencies": {
+        "@pact-foundation/pact": "^12.5.2",
+        "eslint": "^9.10.0",
+        "jest": "^29.7.0"
+    }
+}
